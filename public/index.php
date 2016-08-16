@@ -1,5 +1,5 @@
 <?php
-	require_once("../includes/functions.php");
+	require_once("../../../includes/functions.php");
 	if (isset($_COOKIE["uid"]))
 	{
 		redirect_to("show.php");
@@ -40,7 +40,7 @@
 
 			<div class="mastfoot">
             <div class="inner">
-              <p>Created by <a href="http://twitter.com/ZakkLefkowits">Zakk Lefkowits</a>, this website is <a href="https://github.com/zakkl13/HomePage">open source</a>.</p>
+              <p>Created by Zakk Lefkowits, this website is <a href="https://github.com/zakkl13/HomePage">open source</a>.</p>
             </div>
           </div>
 

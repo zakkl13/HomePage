@@ -15,7 +15,7 @@
 			$user = mysqli_fetch_assoc($result);
 			$_SESSION["name"] = $user["name"];
 			$_SESSION["zipcode"] = $user["zip"];
-			$_SESSION["timezone"] = $user["timzone"];
+			$_SESSION["timezone"] = $user["timezone"];
 			
 	}
 	}

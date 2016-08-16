@@ -1,6 +1,7 @@
 <?php
-	require_once("../includes/dbconnect.php");
-	require_once("../includes/sessions.php");
+	require_once("../../../includes/dbconnect.php");
+	require_once("../../../includes/sessions.php");
+	require_once("../../../includes/functions.php");
 
 	if (!isset($_COOKIE["uid"]))
 	{
@@ -9,10 +10,9 @@
 		first_set();
 	}
 
-	require_once("../includes/timeofday.php");
-	require_once("../includes/weather.php");
-	require_once("../includes/functions.php");
-	require_once("../includes/validation_functions.php");
+	require_once("../../../includes/timeofday.php");
+	require_once("../../../includes/weather.php");
+	require_once("../../../includes/validation_functions.php");
 ?>
 
 
@@ -51,7 +51,6 @@
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="show.php">Home</a></li>
                   <li><a href="edit.php">Edit</a></li>
-                  <li><a href="index.php">Main</a></li>
                 </ul>
               </nav>
             </div>

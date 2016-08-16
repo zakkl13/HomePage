@@ -25,7 +25,6 @@
                   <ul class="nav masthead-nav">
                     <li class="active"><a href="show.php">Home</a></li>
                     <li><a href="edit.php">Edit</a></li>
-                    <li><a href="index.php">Main</a></li>
                   </ul>
                 </nav>
               </div>

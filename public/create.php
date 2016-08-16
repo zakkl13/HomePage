@@ -1,7 +1,7 @@
 <?php
-	require_once("../includes/dbconnect.php");
-	require_once("../includes/functions.php");
-	require_once("../includes/validation_functions.php");
+	require_once("../../../includes/dbconnect.php");
+	require_once("../../../includes/functions.php");
+	require_once("../../../includes/validation_functions.php");
 
 	if (isset($_POST["submit"]))
 	{
@@ -74,7 +74,7 @@
 					</div>
 					<div class="form-group">
 						<label>Please Select Your Timezone:</label>
-						<?php include('../includes/timezone_select.php'); ?>
+						<?php include('../../../includes/timezone_select.php'); ?>
 					</div>
 					<div class="form-inline">
 						<label>Temperature: &nbsp;</label>

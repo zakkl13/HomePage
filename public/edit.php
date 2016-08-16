@@ -1,8 +1,8 @@
 <?php
-	require_once("../includes/dbconnect.php");
-	require_once("../includes/functions.php");
-	require_once("../includes/validation_functions.php");
-	require_once("../includes/sessions.php");
+	require_once("../../../includes/dbconnect.php");
+	require_once("../../../includes/functions.php");
+	require_once("../../../includes/validation_functions.php");
+	require_once("../../../includes/sessions.php");
 
 	if (isset($_POST["submit"]))
 	{
@@ -67,7 +67,6 @@
 									<ul class="nav masthead-nav">
 										<li><a href="show.php">Home</a></li>
 										<li class="active"><a href="edit.php">Edit</a></li>
-										<li><a href="index.php">Main</a></li>
 									</ul>
 								</nav>
 							</div>
@@ -85,7 +84,7 @@
 							</div>
 							<div class="form-group">
 								<label>Timezone:</label>
-								<?php include('../includes/timezone_select.php'); ?>
+								<?php include('../../../includes/timezone_select.php'); ?>
 							</div>
 							<div class="form-inline">
 								<label>Temperature:&nbsp;</label>

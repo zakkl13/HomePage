@@ -33,7 +33,7 @@
 	{
 		global $timeofday;
 		$rand = rand(1, 4);
-		$picture = "../public/img/" . $timeofday . "/" . $rand . ".jpg";
+		$picture = "./img/" . $timeofday . "/" . $rand . ".jpg";
 		return $picture;
 	}
 
